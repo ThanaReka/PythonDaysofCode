@@ -1,0 +1,8 @@
+# Create a program that swaps the values of two variables.
+
+x = 10
+y = 5
+
+x, y = y, x
+print("x =", x)
+print("y =", y)
