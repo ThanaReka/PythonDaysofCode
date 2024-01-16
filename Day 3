@@ -1,0 +1,12 @@
+# Write a function to count the number of vowels in a given string 
+
+vowels = ['a','e','i','o','u']
+given_string = "anything"
+count = 0
+
+string_characters = list(given_string)
+
+for i in range (len(string_characters)):
+        if string_characters[i] in vowels:
+            count += 1
+print(count)
