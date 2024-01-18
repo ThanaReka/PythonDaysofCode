@@ -1,11 +1,11 @@
 # Write a program to check if a number is positive, negative, or zero.
 
-given_number = 0
+given_number = 5
 if given_number > 0:
     print ("This is a positive number.")
 
-if given_number < 0:
+elif given_number < 0:
     print ("This is a negative number.")
 
-if given_number == 0:
-    print ("This is a zero.")           
+else:
+    print ("This is a zero.")  
