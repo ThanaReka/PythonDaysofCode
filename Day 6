@@ -1,0 +1,12 @@
+# Write a program to count the occurrences of a specific character in a string.
+
+specific_char = "a"
+given_string = "anything"
+count = 0
+
+string_characters = list(given_string)
+
+for i in range (len(string_characters)):
+        if string_characters[i] == specific_char:
+            count += 1
+print(count)
