@@ -1,0 +1,6 @@
+# Write a program to reverse a given string.
+
+string_of_interest = input("Input a string: ")
+reversed_string = "".join(reversed(string_of_interest))
+
+print(reversed_string)
