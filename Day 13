@@ -1,0 +1,9 @@
+import random
+
+# Write a program to shuffle the elements of a list randomly.
+
+given_list = ["base", "hello", "py", "ten"]
+
+random.shuffle(given_list)
+
+print(given_list)
