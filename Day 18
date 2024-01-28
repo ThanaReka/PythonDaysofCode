@@ -1,0 +1,21 @@
+# Create a program to find the largest among three numbers.
+
+n=int(input("Please enter a number: "))
+
+n2=int(input("Please enter another number: "))
+
+n3=int(input("Please enter another number: "))
+
+larger_number = 0
+
+
+if n > n2:
+    larger_number = n
+else:
+    larger_number = n2
+
+if larger_number > n3:
+    print(largest_number, "is the largest number.") 
+
+else:
+    print(n3, "is the largest number")  
