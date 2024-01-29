@@ -1,0 +1,11 @@
+# Write a function to calculate the factorial of a number.
+
+import math
+
+def calc_factorial(): 
+    num = int(input("Enter a number", ))
+    factorial = math.factorial(num)
+
+print("The factorial of", num, "is", factorial)
+
+calc_factorial()    
