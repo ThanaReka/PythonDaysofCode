@@ -6,6 +6,6 @@ def calc_factorial():
     num = int(input("Enter a number", ))
     factorial = math.factorial(num)
 
-print("The factorial of", num, "is", factorial)
+    print("The factorial of", num, "is", factorial)
 
 calc_factorial()    
