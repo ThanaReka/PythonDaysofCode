@@ -1,0 +1,9 @@
+# Create a program to remove a specific element from a set.
+
+set_of_names = {'Tanya', 'Eric', 'Rebecca', 'Charlotte'}
+
+print(set_of_names)
+
+set_of_names.remove('Eric')
+
+print("Updated set: ", set_of_names)
