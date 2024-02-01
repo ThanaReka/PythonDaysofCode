@@ -1,0 +1,9 @@
+# Create a program to find the second-largest element in a list.
+
+list = [23, 435, 657, 235, 879]
+max_value = max(list)
+list.remove(max_value)
+max_value = max(list)
+
+print("The second largest element in this list is",max_value)
+
