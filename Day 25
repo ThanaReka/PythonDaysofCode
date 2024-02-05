@@ -1,0 +1,7 @@
+# Create a program to concatenate two lists.
+
+list1 = ["Hello", "my", "dear", "friend"]
+list2 = ["how", "are", "you?"]
+list1_and_list2 = list1 + list2
+
+print(list1_and_list2)
