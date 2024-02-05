@@ -1,0 +1,11 @@
+# Write a program to remove vowels from a given string.
+
+vowels = ['a','e','i','o','u']
+given_string = "anything"
+result_string = " "
+
+for i in range (len(given_string)):
+        if given_string[i] not in vowels:
+                result_string = result_string + given_string[i]
+
+print(result_string)   
