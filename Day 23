@@ -1,0 +1,10 @@
+# Write a program that checks if a key exists in a dictionary.
+
+given_dict = {"fruit": "banana", "vegetable": "carrot", "dairy": "yogurt", "meat": "chicken"}
+
+key_of_interest = input("Type in key of interest: ")
+
+if key_of_interest in given_dict:
+    print("Yes, key of interest exists in the given dictionary.")
+else:
+    print("Key of interest does not exist in the given dictionary.")   
