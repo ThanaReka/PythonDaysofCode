@@ -1,0 +1,7 @@
+# Create a program that sorts a list of strings alphabetically.
+
+list1 = ["hello", "my", "dear", "friend"]
+
+list1.sort()
+
+print(list1)
