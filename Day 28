@@ -1,0 +1,11 @@
+# Create a program that removes the nth element from a list.
+
+given_list = [1, 2, 3, 4, 5]
+print(given_list)
+n = (int(input("Pick a value for n between 0 - 4: "), ))
+
+for i in range (len(given_list)):
+    if i == n:
+        given_list.remove(given_list[i]) 
+
+print(("List after removing nth element from it:"), given_list)
