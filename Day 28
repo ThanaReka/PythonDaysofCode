@@ -9,3 +9,4 @@ for i in range (len(given_list)):
         given_list.remove(given_list[i]) 
 
 print(("List after removing nth element from it:"), given_list)
+
