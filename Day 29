@@ -1,0 +1,12 @@
+# Create a function that generates a random number between a given range.
+
+import random
+
+def pick_random(): 
+    a = int(input("Enter a number to begin range: ", ))
+    b = int(input("Enter a number to end range: ", ))
+    random_num = random.randint(a,b)
+
+    print("The random number generated is ", random_num)
+
+pick_random()   
