@@ -1,13 +1,11 @@
-# Create a function that generates a random number between a given range.
+# Create a program that removes the nth element from a list.
 
-import random
+given_list = [1, 2, 3, 4, 5]
+print(given_list)
+n = (int(input("Pick a value for n between 0 - 4: "), ))
 
-def pick_random(): 
-    a = int(input("Enter a starting value for the range: ", ))
-    b = int(input("Enter an ending value for the range: ", ))
-    random_num = random.randint(a,b)
+for i in range (len(given_list)):
+    if i == n:
+        given_list.remove(given_list[i]) 
 
-    print("The random number generated is ", random_num)
-
-pick_random()    
-
+print(("List after removing nth element from it:"), given_list)  
