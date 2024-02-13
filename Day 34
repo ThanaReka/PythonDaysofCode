@@ -1,0 +1,8 @@
+# Write a Python program to merge two dictionaries.
+
+dict_one = {"fruit": "banana", "vegetable": "carrot", "dairy": "yogurt", "meat": "chicken"}
+dict_two = {"snacks":"pretzels", "breakfast": "pancakes", "lunch": "roti", "dinner": "pasta"}
+
+dict_two.update(dict_one)
+
+print(dict_two)
