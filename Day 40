@@ -1,0 +1,12 @@
+# Write a function to find the largest common divisor of two numbers using a function
+
+import math
+
+def largest_common_divisor():
+
+    num_1 = int(input("Enter a number: "))
+    num_2 = int(input("Enter another number: "))
+    print("The largest common divisor of these two numbers is", math.gcd(num_1, num_2))
+
+
+largest_common_divisor()
