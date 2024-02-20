@@ -1,0 +1,6 @@
+# Write a program to iterate through a dictionary and print its keys and values.
+
+a_dictionary = {"fruit": "banana", "vegetable": "carrot", "dairy": "yogurt", "meat": "chicken"}
+
+for key in a_dictionary.keys():
+    print(key, "->", a_dictionary[key])
