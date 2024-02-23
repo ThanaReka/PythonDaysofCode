@@ -1,0 +1,15 @@
+# Write a program that uses recursion to generate all permutations of a list
+
+def permute(s):
+  out = []
+  if len(s) == 1:
+    return s
+  else:
+    for i,let in enumerate(s):
+      for perm in permute(s[:i] + s[i+1:]):
+        out += [let + perm]
+  return out
+
+
+l = permute(['1','2','3','4'])
+print(l)
