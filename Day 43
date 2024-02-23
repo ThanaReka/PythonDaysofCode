@@ -1,0 +1,6 @@
+# Write a program that removes all whitespaces from a given string
+
+given_string = "Remove all whitespaces in this string."
+
+no_whitespace = given_string.replace(" ", "")
+print(no_whitespace) 
