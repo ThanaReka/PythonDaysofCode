@@ -1,0 +1,8 @@
+# Write a program that uses a try-except block to handle division by zero
+
+try:
+    value1 = int(input('Enter a natural number: '))
+    value2 = int(input('Enter another natural number: '))
+    print('Dividing', value1, 'by', value2, 'results in', value1/value2)        
+except ZeroDivisionError:
+    print('Division by zero is not allowed in our Universe.')
