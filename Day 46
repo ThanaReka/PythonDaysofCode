@@ -1,0 +1,19 @@
+# Write a function to check if a given list is sorted
+
+# list_to_check = ['A', 'C', 'D', 'B', 'F']
+list_to_check = [2, 4, 6, 8, 10]
+
+
+def check_sorted():
+     sorted_list = list_to_check[:] # make new list as a copy of the original list  
+    
+     sorted_list.sort() #sort the new list
+     
+     if (list_to_check == sorted_list):
+        print("This list is sorted.") # compare with the old list
+
+     else:
+         print("This list is not sorted.")
+
+
+check_sorted()
