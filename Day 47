@@ -1,0 +1,8 @@
+# Create a program that imports the math module and uses its functions
+
+import math 
+
+r = int(input("Enter a value for the radius: "))
+
+a = math.pi *r**2
+print("The area of the circle is", a)
