@@ -1,0 +1,12 @@
+# Create a program that checks if a string is a palindrome
+
+given_string_1 = input("Type in a String: ")
+empty_string = "".join(reversed(given_string_1))
+
+
+if given_string_1 == empty_string:
+    print("The given string is a palindrome.")
+else:
+    print("The given string is not a palindrome.")
+
+    # https://www.geeksforgeeks.org/python-program-check-string-palindrome-not/
