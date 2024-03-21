@@ -1,0 +1,11 @@
+# Create a function to extract all URLs from a given text using regular expressions
+
+import re
+
+def find_url(given_string):
+    print(given_string)
+    urls = re.findall(r'https?://[^\s<>"]+|www\.[^\s<>"]+', given_string)
+    print(urls)
+
+
+find_url(input("Input a string: "))
