@@ -1,0 +1,21 @@
+# Create a function to find all words in a sentence that start with a vowel
+
+vowels = "aeiou"
+string_of_interest = (input("Input a string: ")).split()
+print(string_of_interest)
+
+def find_vowels():
+
+    count = 0
+    
+    for i in string_of_interest:
+
+        # check for vowel beginning
+        flag = any(i.startswith(l) for l in vowels)
+
+        if flag:
+            count+=1
+
+    print(count)
+
+find_vowels()    
