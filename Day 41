@@ -13,3 +13,5 @@ def permute(s):
 
 l = permute(['1','2','3','4'])
 print(l)
+
+#https://www.codeproject.com/Tips/1275693/Recursive-Permutations-in-Python
