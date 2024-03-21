@@ -1,0 +1,17 @@
+# Create a function that takes a string and returns the reverse of each word
+
+string_of_interest = (input("Input a string: ")).split()
+print(string_of_interest)
+empty_string = " "
+
+def return_reverse():
+
+    # for i in string_of_interest:
+    #     print(reversed(string_of_interest(i)))
+    reversed_words = list(map(lambda x: x[::-1], string_of_interest))
+    # return ' '.join(reversed_words)
+
+    print(' '.join(reversed_words))
+
+
+return_reverse()
